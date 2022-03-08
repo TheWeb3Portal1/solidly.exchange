@@ -71,7 +71,7 @@ export default function MyApp({ Component, pageProps }) {
     }
   };
 
-  const [shutdownNoticeOpen, setShutdownNoticeOpen] = useState(true);
+  const [shutdownNoticeOpen, setShutdownNoticeOpen] = useState(false);
   const closeShutdown = () => {
     setShutdownNoticeOpen(false)
   }
